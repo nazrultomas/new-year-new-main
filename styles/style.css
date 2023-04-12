@@ -11,17 +11,17 @@
     display: inline-flex;
     list-style: none;
 }
-menu ul li{
-    width: 200px;
-    margin: 60px;
-    padding: 110px;
+.menu ul li{
+    width: 100px;
+    margin: 6px;
+    padding: 10px;
     font-size: x-large;
 }
 .menu ul li a{
     text-decoration: none;
     color: aliceblue;
 }
-.active,
+.option,
 .menu ul li:hover{
     background: rgb(61, 6, 244);
     border-radius: 8%;
@@ -36,8 +36,8 @@ menu ul li{
     align-items: center;
 }
 .header-content{
-    margin-bottom: 300px;
-    margin-right: 10%;
+   width: 400px;
+   margin-right: 10%;
 
 }
 .header-tittle{
@@ -51,7 +51,7 @@ menu ul li{
 
 }
 .btn-primary{
-    color: blueviolet;
+    color: rgb(17, 13, 245);
     background-color: azure;
     border: 0;
     font-weight: 700;
@@ -59,4 +59,173 @@ menu ul li{
     height: 64px;
     border-radius: 5px;
     padding: 18px 35px;
+}
+.about{
+    display: flex;
+    align-items: end;
+
+   
+}
+.about-img img{
+    margin-top: 100px;
+    margin-left: 150px;
+
+}
+.about-content {
+	margin-bottom: 90px;
+	margin-left: 50px;
+}
+.about-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 24px;
+
+}
+.about-para {
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 24px;
+    width: 344px;
+    line-height: 22px;
+}
+.icon-img{
+    margin-top: 10px;
+    display: inline-block;
+}
+.icon-content{
+    color: #444343;
+  margin-left: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  font-style: normal;
+}
+.plan-section {
+	margin-top: 100px;
+}
+.plan-title{
+    color: #151414;
+text-align: center;
+ margin-bottom: 50px;
+ font-weight: 700;
+ font-size: 40px;
+
+}
+.my-plans {
+    display: flex;
+    justify-content: space-around;
+    width: 1088px;
+    margin: 0 auto;
+}
+.my-plan {
+    text-align: center;
+}
+.my-plan h3{
+    color: #151414;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 35px;
+
+}
+.my-plan p{
+    color: #151414;
+    font-size: 18px;
+    line-height: 20px;
+
+}
+.cal_area {
+    background-image: url(../images/watch.png);
+    min-height: 301px;
+    background-repeat: no-repeat;
+    width: 1140px;
+    margin: 0 auto;
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+.gradient_area {
+    background: linear-gradient(90deg, #047fe4 0%, rgba(0, 95, 172, 0) 100%);
+    width: 1150px;
+    height: 310px;
+    display: flex;
+    align-items: center;
+    padding-left: 70px;
+    border-radius: 5px;
+}
+.cal_content h2 {
+    color: #FFFFFF;
+    font-weight: 700;
+   font-size: 40px;
+   line-height: 47px;
+   margin-bottom: 24px;
+}
+button.cal_button {
+    background: #fff;
+    width: 170px;
+    height: 70px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #0b8af1;
+    border: none;
+    border-radius: 5px;
+}
+.footer_area {
+    color: #fff;
+    background: #151414;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+.footer_title_area {
+    width: 1140px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_title h3{
+    color: #F8F8F8;
+    font-weight: 650;
+    font-size: 45px;
+    margin-bottom: 24px;
+}
+.footer_title p {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+    margin-bottom: 16px;
+    width: 500px;
+}
+.footer_title a img {
+    margin-right: 5px;
+    width: 40px;
+}
+.footer_Subscribe h3{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 31px;
+
+}
+.footer_Subscribe input {
+    color: rgb(247, 238, 238);
+    font-weight: 400;
+    font-size: 16px;
+    background: none;
+    padding-left: 10px;
+    border-radius: 8px;
+    border: 1px solid rgb(255, 255, 255);
+    margin-bottom: 16px;
+    width: 310px;
+    height: 64px;
+}
+.footer_Subscribe button {
+    background: #005FAC;
+    width: 170px;
+    height: 64px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
 }
